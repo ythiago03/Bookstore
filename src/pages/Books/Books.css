@@ -1,0 +1,26 @@
+.books-header nav{
+  background-image: 
+    linear-gradient(rgba(47, 47, 47, 0.5), rgba(61, 61, 61, 0.5)), 
+    url("https://cdn.pixabay.com/photo/2017/08/06/22/01/books-2596809_1280.jpg");
+  background-position: 100% 100%;
+  background-size: cover;
+}
+
+.books-main{
+  display: flex;
+  background-color: #f3f3f3;
+  padding: 2rem 0;
+}
+
+.books-sidebar{
+  width: 300px;
+}
+
+.books-grid{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 3rem 1rem;
+  justify-content: space-around;
+  padding: 1rem;
+}

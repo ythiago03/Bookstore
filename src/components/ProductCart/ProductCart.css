@@ -1,0 +1,58 @@
+.product-cart{
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid lightslategray;
+  flex-wrap: wrap;
+}
+
+.left, .right{
+  height: 100%;
+
+  display: flex;
+  gap: 1.75rem;
+  padding: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.left {
+  min-width: 300px;
+  width: 70%;
+}
+
+.right{
+  justify-content: flex-end;
+  min-width: 230px;
+}
+
+.left .remove-btn{
+  background-color: transparent;
+  border: none;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  margin: auto 0;
+}
+
+.left img{
+  width: 8%;
+  min-width: 100px;
+}
+
+.increment_decrement {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.increment_decrement button{
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: transparent;
+  border: 1px solid lightslategray;
+  font-size: 100%;
+  cursor: pointer;
+}

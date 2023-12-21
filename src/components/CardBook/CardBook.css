@@ -1,0 +1,43 @@
+.CardBook{
+  display: flex;
+  align-items: flex-end;
+}
+
+.CardBook img{
+  width: 100%;
+  max-width: 200px;
+  height: 290px;
+}
+
+.CardBook-wrapper{
+  background-color: white;
+  height: 230px;
+  width: 100%;
+  max-width: 270px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: .5rem;
+}
+
+.CardBook-wrapper h2, span{
+  font-weight: 600;
+}
+
+.CardBook-wrapper h3{
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.CardBook-wrapper button{
+  margin-top: 1rem;
+  width: 130px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white ;
+  background: #34b0f1;
+  cursor: pointer;
+}
